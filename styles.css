@@ -8,13 +8,11 @@ header {
     display: flex;
     justify-content: space-between; /* Space between logo and nav */
     align-items: center;
-    padding: 10px 40px; /* Adjusted padding for left and right spacing */
+    padding: 10px 40px; /* Padding to prevent content from touching edges */
     background-color: #f8f8f8;
     border-bottom: 1px solid #e7e7e7;
     width: 100%; /* Ensure header spans full width */
     box-sizing: border-box; /* Include padding in width calculation */
-    max-width: 1200px; /* Set a max-width to prevent content from touching the edges */
-    margin: 0 auto; /* Center the header */
 }
 
 .logo img {
@@ -27,10 +25,11 @@ nav ul {
     padding: 0;
     display: flex;
     align-items: center;
+    gap: 20px; /* Consistent spacing between nav items */
 }
 
 nav ul li {
-    margin: 0 15px; /* Adjusted margin for better spacing */
+    margin: 0; /* Remove default margin */
 }
 
 nav ul li a {
