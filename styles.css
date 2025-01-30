@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif; /* Ensure Arial is the font */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center;
+    padding: 10px 40px; /* Adjusted padding for left and right spacing */
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    width: 100%; /* Ensure header spans full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    max-width: 1200px; /* Set a max-width to prevent content from touching the edges */
+    margin: 0 auto; /* Center the header */
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px; /* Adjusted margin for better spacing */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Ensure Arial is the font */
+    font-size: 14px; /* Adjust font size as needed */
+    padding: 8px 12px; /* Added padding for better click area */
+}
+
+.download-item .download-link {
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; /* Added border for better visibility */
+}
+
+.download-item .download-link img {
+    height: 20px;
+    margin-right: 8px; /* Adjusted margin for better spacing */
+}
+
+.download-item .download-link:hover {
+    background-color: #bccad8;
+}
+
+.register a {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.register a:hover {
+    background-color: #0056b3;
+}
